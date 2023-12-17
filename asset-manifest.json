@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dablemed/static/css/main.8927223c.css",
+    "main.js": "/dablemed/static/js/main.5796813e.js",
+    "static/js/787.d4733ac7.chunk.js": "/dablemed/static/js/787.d4733ac7.chunk.js",
+    "static/media/med_42.jpg": "/dablemed/static/media/med_42.f4a419ff9a74664bf45a.jpg",
+    "static/media/med_47.jpg": "/dablemed/static/media/med_47.65ec69f4747cf0065a2a.jpg",
+    "static/media/med_51.jpg": "/dablemed/static/media/med_51.b562338778eae32d33e7.jpg",
+    "static/media/handsome.png": "/dablemed/static/media/handsome.e3353207f1a707b624a0.png",
+    "static/media/logo-image.png": "/dablemed/static/media/logo-image.4bfda8357f6208738746.png",
+    "static/media/404.png": "/dablemed/static/media/404.e45a4490ce65c5b21c9e.png",
+    "static/media/josefin-sans-all-400-normal.woff": "/dablemed/static/media/josefin-sans-all-400-normal.7c4532067e4e43539af1.woff",
+    "static/media/josefin-sans-latin-400-normal.woff2": "/dablemed/static/media/josefin-sans-latin-400-normal.a881812c0fff75f6cf26.woff2",
+    "static/media/josefin-sans-latin-ext-400-normal.woff2": "/dablemed/static/media/josefin-sans-latin-ext-400-normal.9a2c45e18269982d8d82.woff2",
+    "static/media/josefin-sans-vietnamese-400-normal.woff2": "/dablemed/static/media/josefin-sans-vietnamese-400-normal.8d631991aaf999843621.woff2",
+    "index.html": "/dablemed/index.html",
+    "main.8927223c.css.map": "/dablemed/static/css/main.8927223c.css.map",
+    "main.5796813e.js.map": "/dablemed/static/js/main.5796813e.js.map",
+    "787.d4733ac7.chunk.js.map": "/dablemed/static/js/787.d4733ac7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8927223c.css",
+    "static/js/main.5796813e.js"
+  ]
+}
