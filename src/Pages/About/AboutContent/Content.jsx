@@ -3,6 +3,10 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./Content.css";
 
 const Content = () => {
+  const fileUrl = process.env.PUBLIC_URL + "/files/" + "Публичный_договор.pdf";
+  const fileUrls =
+    process.env.PUBLIC_URL + "/files/" + "Положение_о_гарантии.pdf";
+
   return (
     <section className="about-content-sec">
       <Container>
@@ -24,6 +28,16 @@ const Content = () => {
               Наша клиника оснащена новейшими технологиями, оборудованием и
               современными материалами.
             </p>
+            <div>
+              <a href={fileUrl} target="_blank" rel="noopener noreferrer">
+                Публичный_договор
+              </a>
+            </div>
+            <div>
+              <a href={fileUrls} target="_blank" rel="noopener noreferrer">
+                Положение о гарантии
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>

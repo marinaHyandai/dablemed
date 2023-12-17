@@ -19,7 +19,7 @@ const ContactUs = () => {
               </div>
               <div className="c-info text-start">
                 <h4>Адрес</h4>
-                <p>г. Витебск</p>
+                <p>г. Витебск, ул.Короткевича, 2</p>
               </div>
             </div>
           </Col>
@@ -41,7 +41,7 @@ const ContactUs = () => {
               </div>
               <div className="c-info text-start">
                 <h4>Телефон</h4>
-                <p>+375(33) 307-89-46</p>
+                <p>+375 (29) 700-33-44</p>
               </div>
             </div>
           </Col>

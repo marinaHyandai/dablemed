@@ -2,8 +2,14 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Appoinment.css";
+import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 
 const Appoinment = () => {
+  const defaultState = {
+    center: [55.196191, 30.184245], // Координаты улицы Короткевича, 2 в Витебске
+    zoom: 17,
+  };
+
   return (
     <section className="appoinment-wrapper">
       <Container>
@@ -12,26 +18,14 @@ const Appoinment = () => {
             <div className="section-title">
               <h1 className="mt-5">Мы находимся</h1>
             </div>
-            {/* <div className="appoinment-form">
-                            <form action="#" className="row">
-                                <Col md={6} lg={6}>
-                                    <input type="text" placeholder="Name" />
-                                </Col>
-                                <Col md={6} lg={6}>
-                                    <input type="email" placeholder="Email" />
-                                </Col>
-                                <Col md={6} lg={6}>
-                                    <input type="phone" placeholder="Phone" />
-                                </Col>
-                                <Col md={6} lg={6}>
-                                    <input type="text" placeholder="Subject" />
-                                </Col>
-                                <Col md={12} lg={12}>
-                                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                                </Col>
-                                <Link to="/login"><button className="theme-btn btn-fill form-btn mt-5">Submit</button></Link>
-                            </form>
-                        </div> */}
+            <YMaps>
+              <Map
+                style={{ width: "100%", height: 400 }}
+                defaultState={defaultState}
+              >
+                <Placemark geometry={[55.196191, 30.184245]} />
+              </Map>
+            </YMaps>
           </Col>
         </Row>
       </Container>

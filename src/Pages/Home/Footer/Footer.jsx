@@ -3,8 +3,17 @@ import { Col, Container, NavLink, Row } from "react-bootstrap";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHome, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
+  const instagramUrl =
+    "https://www.instagram.com/dablmed_mc?igshid=NzZlODBkYWE4Ng%3D%3D"; // Замените на ваш URL Instagram
+
+  const linkStyles = {
+    textDecoration: "none", // Убираем подчеркивание
+    color: "inherit", // Используем цвет, унаследованный от родительского элемента
+  };
+
   return (
     <div className="footer-bg">
       <Container>
@@ -13,7 +22,8 @@ const Footer = () => {
             <div className="widget-content">
               <div style={{ marginBottom: 20 }}>
                 <span>
-                  <FontAwesomeIcon icon={faHome} /> <span>г. Витебск</span>
+                  <FontAwesomeIcon icon={faHome} />{" "}
+                  <span>г. Витебск, ул.Короткевича, 2</span>
                 </span>
                 <span style={{ margin: 40 }}>
                   <FontAwesomeIcon icon={faEnvelope} />{" "}
@@ -21,8 +31,21 @@ const Footer = () => {
                 </span>
                 <span>
                   <FontAwesomeIcon icon={faPhone} />{" "}
-                  <span>+375(33) 307-89-46</span>
+                  <span>+375 (29) 700-33-44</span>
                 </span>
+                <a
+                  href={instagramUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={linkStyles}
+                >
+                  <span style={{ margin: 40 }}>
+                    <FontAwesomeIcon
+                      icon={faInstagram}
+                      style={{ height: 20 }}
+                    />
+                  </span>
+                </a>
               </div>
             </div>
 
