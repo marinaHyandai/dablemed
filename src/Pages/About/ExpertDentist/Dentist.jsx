@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import expertDentist from "../../../Images/teeth.png";
+import expertDentist from "../../../Images/med_47.jpg";
 import "./Dentist.css";
 
 const Dentist = () => {
@@ -13,6 +13,7 @@ const Dentist = () => {
               src={expertDentist}
               alt="expertDentist"
               className="img-fluid"
+              style={{ height: 500 }}
             />
           </Col>
           <Col lg={6}>

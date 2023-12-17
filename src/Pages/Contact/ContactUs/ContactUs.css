@@ -17,28 +17,16 @@
   transform: translateY(-10px);
 }
 
-.single-contact.icon1:hover .c-icon {
-  color: #fff;
-  background-color: #03346f;
-}
 
 .single-contact.icon2 .c-icon {
-  color: #03346f;
+  color: #1c83c6;;
 }
 
-.single-contact.icon2:hover .c-icon {
-  background: #6ae5eb;
-  color: #fff;
-}
 
 .single-contact.icon3 .c-icon {
-  color: #6ae5eb;
+  color: #1c83c6;;
 }
 
-.single-contact.icon3:hover .c-icon {
-  background: #03346f;
-  color: #fff;
-}
 
 .c-icon {
   width: 70px;
@@ -47,7 +35,7 @@
   line-height: 70px;
   display: block;
   border-radius: 50%;
-  color: #6ae5eb;
+  color: #1c83c6;
   font-size: 26px;
   transition: 0.5s;
   margin-right: 60px;

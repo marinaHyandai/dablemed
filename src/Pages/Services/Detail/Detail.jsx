@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import serviceDetailImg from "../../../Images/service.png";
+import serviceDetailImg from "../../../Images/med_51.jpg";
 import "./Detail.css";
 
 const Detail = () => {
@@ -21,7 +21,7 @@ const Detail = () => {
                 </p>
               </div>
               <div className="dentist-award">
-                <ul className="p-0">
+                <ul>
                   <li>Ортодонтические услуги (брекеты, элайнеры)</li>
                   <li>Лечение кариеса, лечение пульпита и периодонтита</li>
                   <li>Эстетическая реставрация</li>

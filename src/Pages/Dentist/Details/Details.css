@@ -36,18 +36,17 @@
 
 .dentist-award ul li {
   position: relative;
-  display: inline-block;
+  display: flex;
   padding-left: 16px;
   margin-right: 25px;
   margin-top: 14px;
-  list-style: none;
 }
 
 .dentist-award ul li::before {
   position: absolute;
   left: 0;
   border-radius: 50%;
-  background-color: #03346f;
+  background-color: #1c83c6;
   width: 9px;
   height: 9px;
   content: "";

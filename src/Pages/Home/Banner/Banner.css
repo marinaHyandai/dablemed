@@ -1,5 +1,5 @@
 .single-hero-slide {
-  background-color: #6ae5eb;
+  background-color: #ffffff;
   padding-top: 120px;
   padding-bottom: 220px;
   font-family: "Josefin Sans", sans-serif;
@@ -11,16 +11,18 @@
 
 .hero-slide-left h2 {
   font-size: 36px;
+  color: #2d2d2b;
 }
 
 .hero-slide-left h1 {
   font-size: 62px;
   line-height: 75px;
   margin-bottom: 20px;
+  color: #2d2d2b;
 }
 
 .hero-slide-left p {
-  color: #03346f !important;
+  color: #5c5c5c !important;
   font-family: "Roboto Slab", serif;
 }
 
@@ -51,7 +53,7 @@
   position: relative;
   z-index: 2;
   border-radius: 3px;
-  color: #fff;
+  color: #2d2d2b;
   transition: 0.4s;
   font-weight: 600;
 }
@@ -73,7 +75,7 @@
 
 .bth-blank:hover {
   border-color: #fc5185;
-  color: #fff !important;
+  color: #2d2d2b !important;
   background: #fc5185;
 }
 

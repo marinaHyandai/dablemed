@@ -10,9 +10,7 @@ const Header = () => {
       <Navbar className="navbar" collapseOnSelect expand="lg">
         <Container className="container-head">
           <Navbar.Brand href="/home">
-            <img src={logo} alt="logo" style={{ height: 70 }} />
-            <span style={{ color: "#03346f", fontSize: 30 }}>Дабл</span>
-            <span style={{ color: "#fff", fontSize: 30 }}>Мeд</span>
+            <img src={logo} alt="logo" style={{ height: 150 }} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" expand="lg" />
 

@@ -1,5 +1,5 @@
 .service-wrapper {
-  background: #03346f !important;
+  background: #1c83c6 !important;
   padding: 120px 0;
   color: #fff;
 }
@@ -15,7 +15,6 @@
 }
 
 .single-service-box {
-  border: 1px solid #6ae5eb;
   border-radius: 5px;
   padding: 60px 47px 70px;
   margin-top: 30px;
@@ -24,12 +23,6 @@
   text-align: center;
 }
 
-.single-service-box:hover {
-  background: #6ae5eb;
-  cursor: cell;
-  border-color: transparent;
-  color: #03346f;
-}
 
 .service-icon {
   margin-bottom: 44px;

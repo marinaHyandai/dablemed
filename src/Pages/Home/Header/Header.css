@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Roboto+Slab:wght@300;400;500;600;700&display=swap");
 
 .container-head {
-    border-radius: 10px;
-    transition: all .5s ease-in-out;
-    padding: 0 10px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  padding: 0 10px;
 }
 
 .head-bg {
-  background-color: #6ae5eb;
+  background-color: #fff;
 }
 
 .list-item {
   padding: 25px 0;
   display: inline-block;
-  color: #006;
+  color: #1c83c6;
   text-transform: capitalize;
   padding-left: 40px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -23,7 +23,7 @@
 }
 
 .list-item:hover {
-  color: #ffff;
+  color: #2d2d2b;
 }
 
 .ml-5 {
@@ -48,10 +48,10 @@
   font-family: Raleway-SemiBold;
   font-size: 18px;
   font-weight: bold;
-  color: #ffff;
+  color: #2d2d2b;
   letter-spacing: 1px;
   line-height: 15px;
-  border: 2px solid #fff;
+  border: 2px solid #2d2d2b;
   border-radius: 40px;
   background: transparent;
   transition: all 0.3s ease 0s;

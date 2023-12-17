@@ -2,7 +2,7 @@ import "@fontsource/josefin-sans";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import womanbrush from "../../../Images/happy-girl-pointing-fingers-at-white-perfect-smile-straight-whitened-teeth-standing-in-hoodie-against-white-background-removebg-preview.png";
+import womanbrush from "../../../Images/global-icon.png";
 import "./Banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";

@@ -24,13 +24,13 @@
 }
 
 .about-content p {
-  color: #666;
+  color: #5c5c5c;
 }
 
 .about-content a,
 .single-service-box a {
   margin-top: 17px;
-  color: #03346f;
+  color: #1c83c6;
   font-size: 16px;
   text-decoration: none;
   line-height: 24px;
@@ -43,7 +43,7 @@
 }
 
 .about-content a:hover {
-  color: #6ae5eb;
+  color: #1c83c6;
 }
 
 .fun-fact-sec {
@@ -76,7 +76,7 @@
 }
 
 .single-fun p {
-  color: #666;
+  color: #5c5c5c;
   font-weight: 300;
   line-height: 1;
   margin-top: 8px;
@@ -89,7 +89,7 @@
   transform: translate(-50%, -50%);
   width: 1px;
   height: 70%;
-  background: #dadada;
+  background: #1c83c6;
   content: "";
 }
 
