@@ -1,8 +1,6 @@
 import {
   faChildReaching,
-  faHospitalSymbol,
   faHouseCrack,
-  faPlayCircle,
   faTooth,
 } from "@fortawesome/free-solid-svg-icons";
 

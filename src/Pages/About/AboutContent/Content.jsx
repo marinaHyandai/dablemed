@@ -3,9 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./Content.css";
 
 const Content = () => {
-  const fileUrl = process.env.PUBLIC_URL + "/files/" + "Публичный_договор.pdf";
+  const fileUrl = process.env.PUBLIC_URL + "/files/Публичный_договор.pdf";
   const fileUrls =
-    process.env.PUBLIC_URL + "/files/" + "Положение_о_гарантии.pdf";
+    process.env.PUBLIC_URL + "/files/Положение_о_гарантии.pdf";
 
   return (
     <section className="about-content-sec">

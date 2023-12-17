@@ -1,11 +1,8 @@
 import "@fontsource/josefin-sans";
 import { Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 import womanbrush from "../../../Images/med_42.jpg";
 import "./Banner.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Banner = () => {
   return (
