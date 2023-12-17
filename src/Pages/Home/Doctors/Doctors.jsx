@@ -25,7 +25,7 @@ const Doctors = (props) => {
         <FontAwesomeIcon icon={img} />
         <div className="doctors-info" data-aos="fade-left">
           <h3 className="mb-0">{name}</h3>
-          <span>{status}</span>
+          <p>{status}</p>
         </div>
       </div>
     </Col>
